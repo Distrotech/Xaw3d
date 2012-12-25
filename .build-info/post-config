@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ ! -d /usr/X11R7/include/X11/Xaw3d ];then
+  ln -s /usr/src/Xaw3d/Xaw3d-1.5E/ /usr/X11R7/include/X11/Xaw3d
+fi;
